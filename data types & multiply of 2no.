@@ -1,0 +1,32 @@
+//size of data types..
+#include<iostream>
+using namespace std;
+int main()
+{
+	int integertype;
+	char chartype;
+	float floattype;
+	double doubletype;
+	
+	cout<<"Size of int is :"<<sizeof(integertype)<<"\n";
+	cout<<"Size of char is :"<<sizeof(chartype)<<"\n";
+	cout<<"Size of float is :"<<sizeof(floattype)<<"\n";
+	cout<<"Size of double is :"<<sizeof(doubletype)<<"\n";
+	
+	return 0;
+}
+
+
+
+// product of two numbers..
+#include<iostream>
+using namespace std;
+int main()
+{
+	double num1, num2, product;
+	cout<<"Enter two numbers :\n";
+	cin>>num1>>num2;
+	product=num1 *num2;
+	cout<<"product ="<<product;
+	return 0;
+}
